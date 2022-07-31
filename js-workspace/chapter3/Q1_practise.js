@@ -5,6 +5,9 @@ const strudent_marks_obj= {
     manohar : 12,
     gautam : 01
 }
+ for(let i = 0; i<=Object.keys(strudent_marks_obj).length; i++){
+    console.log("The marks for student "+Object.keys(strudent_marks_obj)[i]+" is  : "+strudent_marks_obj[Object.keys(strudent_marks_obj)[i]]);
+ }
 
-let enteredName = prompt('Enter the name to display marks for : ');
-console.log("The marks for student is  : "+strudent_marks_obj[enteredName]);
+// let enteredName = prompt('Enter the name to display marks for : ');
+// console.log("The marks for student is  : "+strudent_marks_obj[enteredName]);
