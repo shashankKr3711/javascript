@@ -13,7 +13,6 @@ console.log('a % b : '+(a%b))
 // console.log('a-- : ',a-- )//46
 // console.log('a : ',a )//45
 // console.log('a-- : ', a--)//45
-
 //Assignment operator
 let assignment = 10
 assignment  += 5
