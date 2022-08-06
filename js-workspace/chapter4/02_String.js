@@ -9,5 +9,10 @@ let friend = 'Nitesh Nishan';
 console.log('Example of concat : '+myname.concat(friend).concat('Hello'));
 const nameWithSpace = '            Meena                 ';
 console.log('remove space with trim : '+nameWithSpace.trim());
+console.log('first index of my name variable is : '+myname[1]);
+console.log('second index of my name variable is : '+myname[2]);
+console.log('third index of my name variable is : '+myname[3]);
+console.log('fourth index of my name variable is : '+myname[4]);
+console.log('fifth index of my name variable is : '+myname[5]);
 
 
