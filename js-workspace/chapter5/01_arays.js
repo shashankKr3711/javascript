@@ -1,0 +1,13 @@
+let student_marks = [91,82, 63, 84, false, "NA"];
+console.log('display all marks at once : ',student_marks);
+console.log(student_marks[0]);
+console.log(student_marks[1]);
+console.log(student_marks[2]);
+console.log(student_marks[3]);
+console.log(student_marks[4]);
+console.log(student_marks[5]);
+console.log(student_marks[6]);
+student_marks.push(99);
+console.log(student_marks[6]);
+console.log('Total number of student is : ',student_marks.length);
+console.log(typeof student_marks);
